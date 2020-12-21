@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins' sans-serif;
+    background-color: #ffc93c;
+    
+}
+
+.container-fluid {
+    padding: 3%  15% 7%; 
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2 {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p {
+    color: #ffffff;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    color: #f1f1e8;
+    padding: 0 0 2.7rem;
+}
+.navbar-brand {
+    font-family: 'Itim', cursive;;
+    
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.nav-item {
+    
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 100;
+}
+
+/* Title Content */
+#title {
+    background-color: #206A5D;
+    color: #fff;
+    
+    
+}
+.title-content {
+    margin: auto;
+    padding-left: 4%;
+    height: 60%;
+}
+
+.title-slide {
+    margin-right: -4%;
+    margin-left: -4%;
+    margin-top: 0%;
+    margin-bottom: 14%;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+.house-Image-carousel-heading {
+    
+    width: fit-content;
+    opacity: 81%;
+    background-color: #158467;
+}
+
+/* Features Section */
+#features {
+    padding: 7% 15%;
+    background-color: #ffc93c; 
+    margin-top: 0rem;
+}
+.feature-box { 
+    text-align: center;
+    padding: 3.5%;
+}
+.fa-icon {
+    color: #197163;
+    margin-bottom: 1rem;
+}
+.fa-icon:hover {
+    color: #065446;
+}
+.feature-paragraph {
+    color: #8F8F15;
+    margin: 0 -10%;
+}
+.feature-row {
+    margin: 5% -12%;
+}
+/* Artisan Tile */
+#artisans-tile {
+    color: #fff;
+    padding: 3rem;
+    background-color: #206a5d;
+    text-align: center;
+}
+.handymen-list {
+    background-color: #206A5D;
+    
+}
+
+/* Testimonial Section */
+#testimonials {
+    padding: 12%;
+    text-align: center;
+    background-color: #ffc93c;
+    color: #000;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 25px;
+} 
+ 
+.hr {
+    background-color: #ffc93c;
+}
+.hr hr{
+    width: 50rem;
+    background-color: #000;
+}
+
+/* Footer */
+footer {
+    background-color:#ffc93c;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1028px) {
+    .title-content-heading {
+        text-align: center;
+    }
+    .house-slide {
+        position: static;
+        transform: rotate(0);
+    }
+}
